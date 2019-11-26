@@ -31,12 +31,10 @@ The following GitHub Repositories have helped the development of this project:
 
 The python file "construct datasets.py" has been used to parse the input file containing the dataset and to create the annotations.
 
-```Fizyr Repository```
-https://github.com/fizyr/keras-retinanet
+[Fizyr Repository](https://github.com/fizyr/keras-retinanet)
 
 The entire repository has been imported and widely used to create and train the RetinaNET model.
 
-```Penny4860 Repository```
-https://github.com/penny4860/retinanet-digit-detector
+[Penny4860 Repository](https://github.com/penny4860/retinanet-digit-detector)
 
 The pre-trained model has been taken from this repository.
