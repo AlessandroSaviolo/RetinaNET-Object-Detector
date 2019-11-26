@@ -6,12 +6,15 @@ ResNet-50 model is used as feature extractor. Since the evaluation metric is mAP
 ### Project files
 
 - project/root> python load_data.py
+
 Load the dataset and create the Pascal VOC annotations.
 
 - project/root> python train.py
+
 Train a new model from scratch, or load the model from "project-root/snapshots" folder and keep training it.
 
 - project/root> python infer.py
+
 Make predictions and output a JSON file containing the generated bounding box coordinates, labels and scores.
 
 ### Credits
