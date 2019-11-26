@@ -27,7 +27,7 @@ Test inference speed of the model.
 
 The following GitHub Repositories have helped the development of this project:
 
-```[Pavitrakumar78 Repository](https://github.com/pavitrakumar78/Street-View-House-Numbers-SVHN-Detection-and-Classification-using-CNN)```
+[Pavitrakumar78 Repository](https://github.com/pavitrakumar78/Street-View-House-Numbers-SVHN-Detection-and-Classification-using-CNN)
 
 The python file "construct datasets.py" has been used to parse the input file containing the dataset and to create the annotations.
 
