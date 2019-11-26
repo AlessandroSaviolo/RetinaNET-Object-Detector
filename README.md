@@ -11,9 +11,7 @@ Load the dataset and create the Pascal VOC annotations.
 
 ```project/root> python train.py```
 
-Train a new model from scratch, or load the model from this link and keep training it.
-
-https://drive.google.com/open?id=1a1sfy6x5UcCNcg8xYS7zgdrr-H3xrDve
+Train a new model from scratch, or load the model from this [link](https://drive.google.com/open?id=1a1sfy6x5UcCNcg8xYS7zgdrr-H3xrDve) and keep training it.
 
 ```project/root> python infer.py```
 
