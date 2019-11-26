@@ -5,7 +5,7 @@ ResNet-50 model is used as feature extractor. Since the evaluation metric is mAP
 
 ### Project files
 
-- project/root> python load_data.py
+```project/root> python load_data.py```
 
 Load the dataset and create the Pascal VOC annotations.
 
@@ -15,11 +15,11 @@ Train a new model from scratch, or load the model from this link and keep traini
 
 https://drive.google.com/open?id=1a1sfy6x5UcCNcg8xYS7zgdrr-H3xrDve
 
-- project/root> python infer.py
+```project/root> python infer.py```
 
 Make predictions and output a JSON file containing the generated bounding box coordinates, labels and scores.
 
-- project/root> RetinaNET.ipynb
+```project/root> RetinaNET.ipynb```
 
 Test inference speed of the model.
 
@@ -27,14 +27,16 @@ Test inference speed of the model.
 
 The following GitHub Repositories have helped the development of this project:
 
-- Pavitrakumar78 Repository, https://github.com/pavitrakumar78/Street-View-House-Numbers-SVHN-Detection-and-Classification-using-CNN
+```[Pavitrakumar78 Repository](https://github.com/pavitrakumar78/Street-View-House-Numbers-SVHN-Detection-and-Classification-using-CNN)```
 
 The python file "construct datasets.py" has been used to parse the input file containing the dataset and to create the annotations.
 
-- Fizyr Repository, https://github.com/fizyr/keras-retinanet
+```Fizyr Repository```
+https://github.com/fizyr/keras-retinanet
 
 The entire repository has been imported and widely used to create and train the RetinaNET model.
 
-- Penny4860 Repository, https://github.com/penny4860/retinanet-digit-detector
+```Penny4860 Repository```
+https://github.com/penny4860/retinanet-digit-detector
 
 The pre-trained model has been taken from this repository.
