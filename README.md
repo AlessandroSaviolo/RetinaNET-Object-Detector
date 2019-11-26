@@ -20,6 +20,14 @@ Make predictions and output a JSON file containing the generated bounding box co
 ### Credits
 
 The following GitHub Repositories have helped the development of this project:
-- Pavitrakumar78 Repository, the python file "construct datasets.py" has been used to parse the input file containing the dataset and to create the annotations
-- Fizyr Repository, the entire repository has been imported and widely used to create and train the RetinaNET model
-- Penny4860 Repository, the pre-trained model has been taken from this repository
+- Pavitrakumar78 Repository
+
+The python file "construct datasets.py" has been used to parse the input file containing the dataset and to create the annotations.
+
+- Fizyr Repository
+
+The entire repository has been imported and widely used to create and train the RetinaNET model.
+
+- Penny4860 Repository
+
+The pre-trained model has been taken from this repository.
