@@ -5,10 +5,14 @@ ResNet-50 model is used as feature extractor. Since the evaluation metric is mAP
 
 ### Project files
 
-The dataset provided for this homework is stored in a .mat file. At first, I used a pandas dataframe to extract and store the features of each image (i.e., height, image name, label, left, top, width, cut image, image, image height, image width). Then, I created an annotation file for each image using the Pascal Voc format. This annotation format standardises image data sets for object class recognition and offers many advantages, such as it provides a common set of tools for accessing the data sets and annotations.
-
-Load the dataset and create the Pascal VOC annotations through the following command:
 - project/root> python load_data.py
+Load the dataset and create the Pascal VOC annotations.
+
+- project/root> python train.py
+Train a new model from scratch, or load the model from "project-root/snapshots" folder and keep training it.
+
+- project/root> python infer.py
+Make predictions and output a JSON file containing the generated bounding box coordinates, labels and scores.
 
 ### Credits
 
