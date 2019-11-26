@@ -17,6 +17,10 @@ Train a new model from scratch, or load the model from "project-root/snapshots" 
 
 Make predictions and output a JSON file containing the generated bounding box coordinates, labels and scores.
 
+- project/root> RetinaNET.ipynb
+
+Test inference speed of the model.
+
 ### Credits
 
 The following GitHub Repositories have helped the development of this project:
