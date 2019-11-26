@@ -1,7 +1,6 @@
 # RetinaNET Object Detector
 
-Implementation of RetinaNET object detector using keras-retinanet package and SVHN dataset. Due to lack of computational power, the presented model is trained by first loading a pre-trained model and then training it for few epochs. Moreover, due to this problem,
-ResNet-50 model is used as feature extractor. Since the evaluation metric is mAP, the hyper parameters of the model are tuned in order to obtain the highest mAP as possible. More information about the project and the code can be found in report.pdf.
+Implementation of RetinaNET object detector using keras-retinanet package and [SVHN dataset](http://ufldl.stanford.edu/housenumbers/). Due to lack of computational power, the presented model is trained by first loading a pre-trained model and then training it for few epochs. Moreover, due to this problem, ResNet-50 model is used as feature extractor. Since the evaluation metric is mAP, the hyper parameters of the model are tuned in order to obtain the highest mAP as possible. More information about the project and the code can be found in report.pdf.
 
 ### Project files
 
