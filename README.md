@@ -1,4 +1,4 @@
-# Generative Adversarial Network using CelebA Dataset
+# RetinaNET Object Detector
 
 This project is part of a series of projects for the course _Selected Topics in Visual Recognition using Deep Learning_ that I attended during my exchange program at National Chiao Tung University (Taiwan). See `task.pdf` for the details of the assignment. See `report.pdf` for the report containing the representation and the analysis of the produced results.
 
