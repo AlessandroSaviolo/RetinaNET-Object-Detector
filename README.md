@@ -14,7 +14,7 @@ The purpose of this project is to implement an object detector for the [SVHN Dat
 
 - `load_data.py` : load the dataset and create the Pascal VOC annotations
 
-- `train.py` : train a new model from scratch, or load the [model](https://drive.google.com/open?id=1a1sfy6x5UcCNcg8xYS7zgdrr-H3xrDve) and keep training it
+- `train.py` : train a new model from scratch, or load the [model](https://drive.google.com/open?id=1-MqGpht6UnGzX3Ps_8-IIJ8hAz24pHoN) and keep training it
 
 - `infer.py` : make predictions and output a JSON file containing the generated bounding box coordinates, labels and scores
 
