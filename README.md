@@ -1,26 +1,26 @@
-# RetinaNET Object Detector
+# Generative Adversarial Network using CelebA Dataset
 
-Implementation of RetinaNET object detector using keras-retinanet package and [SVHN dataset](http://ufldl.stanford.edu/housenumbers/). Due to lack of computational power, the presented model is trained by first loading a pre-trained model and then training it for few epochs. Moreover, due to this problem, ResNet-50 model is used as feature extractor. Since the evaluation metric is mAP, the hyper parameters of the model are tuned in order to obtain the highest mAP as possible. More information about the project and the code can be found in report.pdf.
+This project is part of a series of projects for the course _Selected Topics in Visual Recognition using Deep Learning_ that I attended during my exchange program at National Chiao Tung University (Taiwan). See `task.pdf` for the details of the assignment. See `report.pdf` for the report containing the representation and the analysis of the produced results.
 
-### Project files
+The purpose of this project is to implement an object detector for the [SVHN dataset](http://ufldl.stanford.edu/housenumbers/). The implementation consists of a RetinaNET object detector which uses the keras-retinanet package. Due to the lack of computational power, the presented model is trained by first loading a pre-trained model and then training it for few epochs. Moreover, due to this problem, ResNet-50 model is used as feature extractor. Since the evaluation metric is mAP, the hyper parameters of the model are tuned in order to obtain the highest mAP as possible.
 
-```project/root> python load_data.py```
+## 1. Dataset
 
-Load the dataset and create the Pascal VOC annotations.
+- [SVHN Training set](https://drive.google.com/open?id=1Yu290bIuW-n3v3FM7ziYTUj0wIKSJFkh)
 
-```project/root> python train.py```
+- [SVHN Test set](https://drive.google.com/open?id=1STaRswNKSkvyzlUtFlteDHBan2tlydK8)
 
-Train a new model from scratch, or load the model from this [link](https://drive.google.com/open?id=1a1sfy6x5UcCNcg8xYS7zgdrr-H3xrDve) and keep training it.
+## 2. Project Structure
 
-```project/root> python infer.py```
+- `load_data.py` : load the dataset and create the Pascal VOC annotations
 
-Make predictions and output a JSON file containing the generated bounding box coordinates, labels and scores.
+- `train.py` : train a new model from scratch, or load the [model](https://drive.google.com/open?id=1a1sfy6x5UcCNcg8xYS7zgdrr-H3xrDve) and keep training it
 
-```project/root> RetinaNET.ipynb```
+- `infer.py` : make predictions and output a JSON file containing the generated bounding box coordinates, labels and scores
 
-Test inference speed of the model.
+- `RetinaNET.ipynb` : test inference speed of the model
 
-### Credits
+## 3. Credits
 
 The following GitHub Repositories have helped the development of this project:
 
