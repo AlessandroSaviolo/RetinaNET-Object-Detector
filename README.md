@@ -6,9 +6,9 @@ The purpose of this project is to implement an object detector for the [SVHN Dat
 
 ## 1. Dataset
 
-- [SVHN Training set](https://drive.google.com/open?id=1Yu290bIuW-n3v3FM7ziYTUj0wIKSJFkh)
+- [SVHN Training set](http://ufldl.stanford.edu/housenumbers/train.tar.gz)
 
-- [SVHN Test set](https://drive.google.com/open?id=1STaRswNKSkvyzlUtFlteDHBan2tlydK8)
+- [SVHN Test set](http://ufldl.stanford.edu/housenumbers/test.tar.gz)
 
 ## 2. Project Structure
 
