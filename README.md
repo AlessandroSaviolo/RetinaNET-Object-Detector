@@ -1,8 +1,8 @@
-# RetinaNET Object Detector
+# RetinaNET Object Detector for SVHN Dataset
 
 This project is part of a series of projects for the course _Selected Topics in Visual Recognition using Deep Learning_ that I attended during my exchange program at National Chiao Tung University (Taiwan). See `task.pdf` for the details of the assignment. See `report.pdf` for the report containing the representation and the analysis of the produced results.
 
-The purpose of this project is to implement an object detector for the [SVHN dataset](http://ufldl.stanford.edu/housenumbers/). The implementation consists of a RetinaNET object detector which uses the keras-retinanet package. Due to the lack of computational power, the presented model is trained by first loading a pre-trained model and then training it for few epochs. Moreover, due to this problem, ResNet-50 model is used as feature extractor. Since the evaluation metric is mAP, the hyper parameters of the model are tuned in order to obtain the highest mAP as possible.
+The purpose of this project is to implement an object detector for the [SVHN Dataset](http://ufldl.stanford.edu/housenumbers/). The implementation consists of a RetinaNET object detector which uses the keras-retinanet package. Due to the lack of computational power, the presented model is trained by first loading a pre-trained model and then training it for few epochs. Moreover, due to this problem, ResNet-50 model is used as feature extractor. Since the evaluation metric is mAP, the hyper parameters of the model are tuned in order to obtain the highest mAP as possible.
 
 ## 1. Dataset
 
