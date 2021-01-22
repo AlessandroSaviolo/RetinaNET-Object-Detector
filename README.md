@@ -29,3 +29,21 @@ The following GitHub Repositories have helped the development of this project:
 - [Fizyr Repository](https://github.com/fizyr/keras-retinanet): the entire repository has been imported and widely used to create and train the RetinaNET model
 
 - [Penny4860 Repository](https://github.com/penny4860/retinanet-digit-detector): the pre-trained model has been taken from this repository
+
+## 4. License
+
+Copyright (C) 2021 Alessandro Saviolo, [FlexSight SRL](http://www.flexsight.eu/), Padova, Italy
+```
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see <http://www.gnu.org/licenses/>.
+```
